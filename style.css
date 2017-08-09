@@ -1,0 +1,63 @@
+*{
+	cursor:default;
+	font-weight:bold;
+	font-family: "Slabo 27px";
+}
+
+body{
+	width:auto;
+}
+
+header{
+	border-bottom:1px solid grey;
+}
+
+nav{
+	float:right;
+	position:relative;
+	top:10px;
+}
+
+nav ul{
+	list-style: none;
+	display:inline;
+}
+
+nav ul li{
+	width:100px;
+	display:inline-block;
+	color:cornflowerblue;
+}
+
+section{
+	background:url("img/sample-pattern.png") no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	padding-top:1%;
+	padding-bottom:5%;
+}
+
+h1{
+	text-align:center;
+	font-size:40px;
+	color:darkslategrey;
+}
+
+#article-list{
+	width:60.5%;
+	padding: 1% 2%;
+	margin:0 auto;
+	background-color:white;
+}
+
+article a{
+	color:cornflowerblue;
+	text-decoration:none;
+}
+
+footer{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:1%;
+}
