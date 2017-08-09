@@ -27,7 +27,7 @@
 </p>
 <h2>About Me</h2> 
 <p>
-	<table>
+	<table border="0" align="left">
 		<tr>
 			<th>Nama Lengkap</th>
 			<td>:</td>
