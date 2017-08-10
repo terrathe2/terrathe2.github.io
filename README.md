@@ -60,3 +60,7 @@
 		</tr>
 	</table>
 </p>
+<h2>Rencana pengembangan</h2>
+<p>
+	saya akan mengembangkan website ini dengan menambahkan fitur-fitur baru, style baru, dan penggunaan javascript.
+</p>
