@@ -2,7 +2,7 @@
 
 <h2>About This Site</h2> 
 <p>
-	Website yang akan saya buat ini adalah website jual beli online (Online Shop)
+	Website yang akan saya buat ini adalah website Portofolio.
 </p>
 <h2>Used Tags & Syntaxes</h2> 
 <p>
@@ -12,22 +12,22 @@
 		<li>head</li>
 		<li>title</li>
 		<li>link</li>
-		<li>script</li>
+		<li>Style</li>
 		<li>body</li>
 		<li>div</li>
 		<li>header</li>
 		<li>footer</li>
 		<li>section</li>
 		<li>article</li>
-		<li>figure</li>
 		<li>span</li>
 		<li>label</li>
+		<li>ul and ol</li>
 		dll.....
 	</ol>
 </p>
 <h2>About Me</h2> 
 <p>
-	<table border="0" align="left">
+	<table>
 		<tr>
 			<th>Nama Lengkap</th>
 			<td>:</td>
