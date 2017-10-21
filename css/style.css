@@ -19,12 +19,12 @@ html, body, content{
 	background-size:100% 100%;
 }
 
-#judulcontent{
+.judulcontent{
 	text-align:center;
 	color:black;
 }
 
-#judulmerah{
+.judulmerah{
 	color:red;
 }
 
@@ -86,7 +86,7 @@ nav ul li:hover{
 
 /* Content */
 
-content{
+#content{
 	float:left;
 	width:100%;
 }
