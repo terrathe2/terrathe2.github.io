@@ -2,8 +2,12 @@
 	font-family:georgia;
 }
 
-html, body, content{
+html, body, #content{
 	height:100%;
+}
+
+a{
+	text-decoration: none;
 }
 
 @font-face {
@@ -69,14 +73,22 @@ nav ul{
 }
 
 nav ul li{
-	width:auto;
-	margin-top:1%;
-	padding:1.5%;
+	width: auto;
+	/*margin-top:1%;*/
+	/*padding:1.5%;*/
 	display:inline-block;
+	/*color:red;*/
+}
+
+nav ul li div{
+	/*width: auto;*/
+	/*margin-top: 1%;*/
+	padding: 30px;
+	/*display:inline-block;*/
 	color:red;
 }
 
-nav ul li:hover{
+nav ul li div:hover{
 	color:yellow;
 	transition:all 1s ease;
 	-webkit-transition:all 1s ease;
@@ -135,6 +147,8 @@ nav ul li:hover{
 }
 
 #foto img{
+	width: 100%;
+	height: 100%;
 	border-radius:5px;
 }
 
@@ -149,19 +163,14 @@ nav ul li:hover{
 	-o-transition: all 1s ease;
 }
 
-#foto img{
-	width: 8%;
-	position: absolute;
-}
-
 #biodata{
 	float:left;
 	width:60%;
 }
 
 #biodata img{
-	width: 100%;
-	height: 100%;
+	width: 8%;
+	position: absolute;
 }
 
 
