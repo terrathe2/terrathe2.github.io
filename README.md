@@ -2,7 +2,7 @@
 
 <h2>About This Site</h2> 
 <p>
-	Website yang akan saya buat ini adalah website Portofolio.
+	This is my Portofolio website only using HTML & CSS (no javascript).
 </p>
 <h2>Used Tags & Syntaxes</h2> 
 <p>
@@ -22,41 +22,41 @@
 		<li>span</li>
 		<li>label</li>
 		<li>ul and ol</li>
-		dll.....
+		etc.....
 	</ol>
 </p>
 <h2>About Me</h2> 
 <p>
 	<table>
 		<tr>
-			<th>Nama Lengkap</th>
+			<th>Full Name</th>
 			<td>:</td>
 			<td>Redha Putra</td>
 		</tr>
 		<tr>
-			<th>Tempat dan Tanggal lahir</th>
+			<th>Date of Birth</th>
 			<td>:</td>
-			<td>Depok, 6 Desember 1992</td>
+			<td>Depok, 6 December 1992</td>
 		</tr>
 		<tr>
-			<th>Jenis Kelamin</th>
+			<th>Gender</th>
 			<td>:</td>
-			<td>Laki-laki</td>
+			<td>Male</td>
 		</tr>
 		<tr>
-			<th>Agama</th>
+			<th>Religion</th>
 			<td>:</td>
 			<td>Islam</td>
 		</tr>
 		<tr>
-			<th>Kebangsaan</th>
+			<th>Nationality</th>
 			<td>:</td>
 			<td>Indonesia</td>
 		</tr>
 		<tr>
 			<th>Status</th>
 			<td>:</td>
-			<td>Belum Menikah</td>
+			<td>Not Married</td>
 		</tr>
 	</table>
 </p>
