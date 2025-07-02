@@ -2,28 +2,7 @@
 
 <h2>About This Site</h2> 
 <p>
-	Website yang akan saya buat ini adalah website Portofolio.
-</p>
-<h2>Used Tags & Syntaxes</h2> 
-<p>
-	<ol>
-		<li>html</li>
-		<li>meta</li>
-		<li>head</li>
-		<li>title</li>
-		<li>link</li>
-		<li>Style</li>
-		<li>body</li>
-		<li>div</li>
-		<li>header</li>
-		<li>footer</li>
-		<li>section</li>
-		<li>article</li>
-		<li>span</li>
-		<li>label</li>
-		<li>ul and ol</li>
-		dll.....
-	</ol>
+	Ini adalah website portofolio saya yang di hosting menggunakan github.
 </p>
 <h2>About Me</h2> 
 <p>
@@ -56,11 +35,11 @@
 		<tr>
 			<th>Status</th>
 			<td>:</td>
-			<td>Belum Menikah</td>
+			<td>Sudah Menikah</td>
 		</tr>
 	</table>
 </p>
-<h2>Rencana pengembangan</h2>
+<h2>Note</h2>
 <p>
-	saya akan mengembangkan website ini dengan menambahkan fitur-fitur baru, style baru, dan penggunaan javascript.
+	please open <a href="https://terrathe2.github.io">this</a> to preview the portofolio website
 </p>
